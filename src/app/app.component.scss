@@ -1,0 +1,89 @@
+
+
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    color: #FFC947;
+
+}
+
+.time{
+    text-align: center;
+    font-size: 25px;
+    color: #FFC947;
+
+}
+
+.game-container{
+    width: 60%;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto ;
+    gap: 1rem;
+}
+
+.game-container div{
+    background-color: #f1f1f1;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+
+.puntaje{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 8px;
+    color: #FFC947;
+    
+
+}
+
+
+.active{
+    background-color: #000;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+
+.estado{
+    text-align: center;
+    font-size: 35px;
+}
+
+ 
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .game-container{
+        width: 70%;
+    }
+
+    
+
+ }
+ 
+
+ 
+@media (max-width: 767px) { 
+    .game-container{
+        width: 80%;
+    }
+
+ }
+ 
+
+@media (max-width: 480px) { 
+    .game-container{
+        width: 95%;
+    }
+
+ }
